@@ -1,6 +1,4 @@
-Create or Replace Function max_n(x in Number, y in Number) 
-Return  Number IS 
-z Number;
+Create or Replace Function max_n(x in Number, y in Number) Return  Number IS z Number;
 Begin
 if (x > y) then
 z:= x;
